@@ -98,7 +98,7 @@ module.exports = (grunt) ->
                 pushTo: 'origin'
 
     @registerTask 'default', ['test']
-    @registerTask 'build', ['clean', 'jshint', 'concat', 'ngmin', 'uglify']
+    @registerTask 'build', ['clean', 'concat', 'ngmin']
     @registerTask 'test', ['build', 'connect:e2e', 'karma:unit', 'karma:unit_nojquery', 'karma:e2e', 'watch:all']
     @registerTask 'test_unit', ['build', 'karma:unit', 'karma:unit_nojquery', 'watch:unit']
     @registerTask 'test_e2e', ['build', 'connect:e2e', 'karma:e2e', 'watch:e2e']
