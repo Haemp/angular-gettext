@@ -4,7 +4,6 @@ module.exports = (grunt) ->
     @loadNpmTasks('grunt-contrib-concat')
     @loadNpmTasks('grunt-contrib-connect')
     @loadNpmTasks('grunt-contrib-jshint')
-    @loadNpmTasks('grunt-contrib-uglify')
     @loadNpmTasks('grunt-contrib-watch')
     @loadNpmTasks('grunt-karma')
     @loadNpmTasks('grunt-ngmin')

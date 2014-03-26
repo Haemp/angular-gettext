@@ -32,21 +32,21 @@
 17 verbose url raw grunt-contrib-uglify
 18 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
 19 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
-20 info trying registry request attempt 1 at 11:50:25
+20 info trying registry request attempt 1 at 12:09:02
 21 verbose etag "8K3CNBBYXD06GAS2VH2V7OB1"
 22 http GET https://registry.npmjs.org/grunt-contrib-uglify
 23 http 304 https://registry.npmjs.org/grunt-contrib-uglify
 24 silly registry.get cb [ 304,
-24 silly registry.get   { date: 'Wed, 26 Mar 2014 11:50:22 GMT',
+24 silly registry.get   { date: 'Wed, 26 Mar 2014 12:08:58 GMT',
 24 silly registry.get     server: 'Apache',
 24 silly registry.get     via: '1.1 varnish',
-24 silly registry.get     'last-modified': 'Wed, 26 Mar 2014 11:50:22 GMT',
+24 silly registry.get     'last-modified': 'Wed, 26 Mar 2014 12:08:58 GMT',
 24 silly registry.get     'cache-control': 'max-age=1',
 24 silly registry.get     etag: '"8K3CNBBYXD06GAS2VH2V7OB1"',
-24 silly registry.get     'x-served-by': 'cache-am71-AMS',
+24 silly registry.get     'x-served-by': 'cache-lcy1122-LCY',
 24 silly registry.get     'x-cache': 'HIT',
 24 silly registry.get     'x-cache-hits': '1',
-24 silly registry.get     'x-timer': 'S1395834622.180860281,VS0,VE84',
+24 silly registry.get     'x-timer': 'S1395835738.507052422,VS0,VE99',
 24 silly registry.get     vary: 'Accept',
 24 silly registry.get     'content-length': '0',
 24 silly registry.get     'keep-alive': 'timeout=10, max=50',
@@ -223,64 +223,83 @@
 85 info addNameTag [ 'uglify-js', '^2.4.0' ]
 86 info addNameTag [ 'chalk', '^0.4.0' ]
 87 info addNameTag [ 'maxmin', '^0.1.0' ]
-88 verbose url raw uglify-js
-89 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
-90 verbose url resolved https://registry.npmjs.org/uglify-js
-91 info trying registry request attempt 1 at 11:50:25
-92 verbose etag "2KP00W1A9M7PZVDS8RKMYO837"
-93 http GET https://registry.npmjs.org/uglify-js
+88 verbose url raw maxmin
+89 verbose url resolving [ 'https://registry.npmjs.org/', './maxmin' ]
+90 verbose url resolved https://registry.npmjs.org/maxmin
+91 info trying registry request attempt 1 at 12:09:02
+92 verbose etag "7VCMTF2PJTRFBW5H2HTUSC74T"
+93 http GET https://registry.npmjs.org/maxmin
 94 verbose url raw chalk
 95 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
 96 verbose url resolved https://registry.npmjs.org/chalk
-97 info trying registry request attempt 1 at 11:50:25
+97 info trying registry request attempt 1 at 12:09:02
 98 verbose etag "ZI1L1DZRJYRJXBINR22D2C5B"
 99 http GET https://registry.npmjs.org/chalk
-100 verbose url raw maxmin
-101 verbose url resolving [ 'https://registry.npmjs.org/', './maxmin' ]
-102 verbose url resolved https://registry.npmjs.org/maxmin
-103 info trying registry request attempt 1 at 11:50:25
-104 verbose etag "7VCMTF2PJTRFBW5H2HTUSC74T"
-105 http GET https://registry.npmjs.org/maxmin
+100 verbose url raw uglify-js
+101 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
+102 verbose url resolved https://registry.npmjs.org/uglify-js
+103 info trying registry request attempt 1 at 12:09:02
+104 verbose etag "2KP00W1A9M7PZVDS8RKMYO837"
+105 http GET https://registry.npmjs.org/uglify-js
 106 http 304 https://registry.npmjs.org/maxmin
 107 silly registry.get cb [ 304,
-107 silly registry.get   { date: 'Wed, 26 Mar 2014 11:50:22 GMT',
+107 silly registry.get   { date: 'Wed, 26 Mar 2014 12:08:58 GMT',
 107 silly registry.get     server: 'Apache',
 107 silly registry.get     via: '1.1 varnish',
-107 silly registry.get     'last-modified': 'Wed, 26 Mar 2014 11:50:22 GMT',
+107 silly registry.get     'last-modified': 'Wed, 26 Mar 2014 12:08:58 GMT',
 107 silly registry.get     'cache-control': 'max-age=1',
 107 silly registry.get     etag: '"7VCMTF2PJTRFBW5H2HTUSC74T"',
-107 silly registry.get     'x-served-by': 'cache-am71-AMS',
+107 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
 107 silly registry.get     'x-cache': 'HIT',
 107 silly registry.get     'x-cache-hits': '1',
-107 silly registry.get     'x-timer': 'S1395834622.396490812,VS0,VE107',
+107 silly registry.get     'x-timer': 'S1395835738.719082355,VS0,VE169',
 107 silly registry.get     vary: 'Accept',
 107 silly registry.get     'content-length': '0',
 107 silly registry.get     'keep-alive': 'timeout=10, max=50',
 107 silly registry.get     connection: 'Keep-Alive' } ]
 108 verbose etag maxmin from cache
-109 silly lockFile c75f66b7-maxmin-0-1-0 maxmin@^0.1.0
-110 silly lockFile c75f66b7-maxmin-0-1-0 maxmin@^0.1.0
-111 verbose about to build /Applications/MAMP/htdocs/libs/angular-gettext/node_modules/grunt-contrib-uglify
-112 info /Applications/MAMP/htdocs/libs/angular-gettext/node_modules/grunt-contrib-uglify unbuild
-113 info preuninstall grunt-contrib-uglify@0.4.0
-114 info uninstall grunt-contrib-uglify@0.4.0
-115 verbose true,/Applications/MAMP/htdocs/libs/angular-gettext/node_modules,/Applications/MAMP/htdocs/libs/angular-gettext/node_modules unbuild grunt-contrib-uglify@0.4.0
-116 info postuninstall grunt-contrib-uglify@0.4.0
-117 error Error: No compatible version found: maxmin@'^0.1.0'
-117 error Valid install targets:
-117 error ["0.1.0"]
-117 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:719:10)
-117 error     at /usr/local/lib/node_modules/npm/lib/cache.js:638:10
-117 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:142:7)
-117 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
-117 error     at Object.oncomplete (fs.js:107:15)
-118 error If you need help, you may report this log at:
-118 error     <http://github.com/isaacs/npm/issues>
-118 error or email it to:
-118 error     <npm-@googlegroups.com>
-119 error System Darwin 13.1.0
-120 error command "node" "/usr/local/bin/npm" "install" "grunt-contrib-uglify"
-121 error cwd /Applications/MAMP/htdocs/libs/angular-gettext
-122 error node -v v0.10.15
-123 error npm -v 1.3.5
-124 verbose exit [ 1, true ]
+109 http 304 https://registry.npmjs.org/chalk
+110 silly registry.get cb [ 304,
+110 silly registry.get   { date: 'Wed, 26 Mar 2014 12:08:58 GMT',
+110 silly registry.get     server: 'Apache',
+110 silly registry.get     via: '1.1 varnish',
+110 silly registry.get     'last-modified': 'Wed, 26 Mar 2014 12:08:58 GMT',
+110 silly registry.get     'cache-control': 'max-age=1',
+110 silly registry.get     etag: '"ZI1L1DZRJYRJXBINR22D2C5B"',
+110 silly registry.get     'x-served-by': 'cache-lcy1128-LCY',
+110 silly registry.get     'x-cache': 'HIT',
+110 silly registry.get     'x-cache-hits': '1',
+110 silly registry.get     'x-timer': 'S1395835738.719440222,VS0,VE172',
+110 silly registry.get     vary: 'Accept',
+110 silly registry.get     'content-length': '0',
+110 silly registry.get     'keep-alive': 'timeout=10, max=50',
+110 silly registry.get     connection: 'Keep-Alive' } ]
+111 verbose etag chalk from cache
+112 silly lockFile c75f66b7-maxmin-0-1-0 maxmin@^0.1.0
+113 silly lockFile c75f66b7-maxmin-0-1-0 maxmin@^0.1.0
+114 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+115 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+116 verbose about to build /Applications/MAMP/htdocs/libs/angular-gettext/node_modules/grunt-contrib-uglify
+117 info /Applications/MAMP/htdocs/libs/angular-gettext/node_modules/grunt-contrib-uglify unbuild
+118 info preuninstall grunt-contrib-uglify@0.4.0
+119 info uninstall grunt-contrib-uglify@0.4.0
+120 verbose true,/Applications/MAMP/htdocs/libs/angular-gettext/node_modules,/Applications/MAMP/htdocs/libs/angular-gettext/node_modules unbuild grunt-contrib-uglify@0.4.0
+121 info postuninstall grunt-contrib-uglify@0.4.0
+122 error Error: No compatible version found: maxmin@'^0.1.0'
+122 error Valid install targets:
+122 error ["0.1.0"]
+122 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:719:10)
+122 error     at /usr/local/lib/node_modules/npm/lib/cache.js:638:10
+122 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+122 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+122 error     at Object.oncomplete (fs.js:107:15)
+123 error If you need help, you may report this log at:
+123 error     <http://github.com/isaacs/npm/issues>
+123 error or email it to:
+123 error     <npm-@googlegroups.com>
+124 error System Darwin 13.1.0
+125 error command "node" "/usr/local/bin/npm" "install" "grunt-contrib-uglify"
+126 error cwd /Applications/MAMP/htdocs/libs/angular-gettext
+127 error node -v v0.10.15
+128 error npm -v 1.3.5
+129 verbose exit [ 1, true ]
